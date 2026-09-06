@@ -3,23 +3,12 @@
     "name": "Dantech Daraja",
     "slug": "dantech-daraja",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
     "android": {
       "package": "com.dantech.daraja",
       "versionCode": 1
     },
     "ios": {
       "bundleIdentifier": "com.dantech.daraja"
-    },
-    "plugins": [
-      "expo-notifications"
-    ]
+    }
   }
 }
