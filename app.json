@@ -2,8 +2,9 @@
   "expo": {
     "name": "Dantech Daraja",
     "slug": "dantec-h-business",
-    "owner": "dantech1s-team",
+    "owner": "dantech1",
     "version": "1.0.0",
+    "runtimeVersion": "1.0.0",
     "android": {
       "package": "com.dantech.daraja",
       "versionCode": 1
