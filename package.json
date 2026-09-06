@@ -20,5 +20,8 @@
     "@expo/vector-icons": "^15.0.0",
     "firebase": "^11.0.0"
   },
+  "engines": {
+    "node": ">=20.19.4"
+  },
   "private": true
-  }
+}
