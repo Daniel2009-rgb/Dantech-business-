@@ -9,6 +9,11 @@
     },
     "ios": {
       "bundleIdentifier": "com.dantech.daraja"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "dantech-daraja"
+      }
     }
   }
 }
