@@ -1,16 +1,30 @@
 {
-  "expo": {
-    "name": "Dantech Daraja",
-    "slug": "dantech-business",
-    "owner": "dantech1s-team",
-    "version": "1.0.0",
-    "android": {
-      "package": "com.dantech.daraja"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "3e46cce3-28f2-4093-aa9e-ae780e894adc"
+  "name": "Dantech Daraja",
+  "slug": "dantech-business",
+  "owner": "dantech2s-team",
+  "version": "1.0.0",
+  "sdkVersion": "57.0.0",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "android": {
+    "package": "com.dantech.daraja"
+  },
+  "plugins": [
+    [
+      "expo-build-properties",
+      {
+        "android": {
+          "gradleVersion": "8.7",
+          "kotlinVersion": "2.0.0"
+        }
       }
+    ]
+  ],
+  "extra": {
+    "eas": {
+      "projectId": "5afae031-0fc4-4964-b11b-81b93ce30d85"
     }
   }
 }
