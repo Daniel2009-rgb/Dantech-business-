@@ -4,10 +4,7 @@
   "owner": "dantech2s-team",
   "version": "1.0.0",
   "sdkVersion": "57.0.0",
-  "platforms": [
-    "ios",
-    "android"
-  ],
+  "platforms": ["ios", "android"],
   "android": {
     "package": "com.dantech.daraja"
   },
@@ -25,6 +22,10 @@
       }
     ]
   ],
+  "gradleProperties": {
+    "androidGradlePluginVersion": "8.6.0",
+    "kotlinVersion": "2.0.0"
+  },
   "extra": {
     "eas": {
       "projectId": "5afae031-0fc4-4964-b11b-81b93ce30d85"
