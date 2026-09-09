@@ -22,7 +22,7 @@
     "expo-build-properties":"~0.14.0",
   },
   "engines": {
-    "node": ">=20.19.4"
+    "node": ">=20.19.4",
   },
   "private": true
 }
