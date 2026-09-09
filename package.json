@@ -28,7 +28,7 @@
     "node": "20.19.4"
   },
   "overrides": {
-    "kotlin": "2.0.0"
+    "kotlin": "2.2.0"
   },
   "private": true
 }
