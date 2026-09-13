@@ -1,7 +1,7 @@
 export default {
   name: "Dantech Daraja",
   slug: "dantech business",
-  owner: "dantech2s-team"
+  owner: "dantech2s-team",
   version: "1.0.0",
   scheme: "dantech", // ya kusaidia deeplinks
   
