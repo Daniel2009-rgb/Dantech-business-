@@ -3,28 +3,35 @@ export default {
   slug: "dantech-business",
   owner: "dantech2s-team",
   version: "1.0.0",
-  scheme: "dantech", // ya kusaidia deeplinks
-  
+  scheme: "dantech",
   android: {
-    package: "com.dantech.daraja", // HII NDIO INAYOKOSEA
+    package: "com.dantech.daraja",
     versionCode: 1,
-    permissions: ["RECORD_AUDIO"] // Kwa Voice
+    permissions: ["RECORD_AUDIO"],
   },
-
   ios: {
-    bundleIdentifier: "com.dantech.daraja", // Kwa iPhone
+    bundleIdentifier: "com.dantech.daraja",
     infoPlist: {
-      NSSpeechRecognitionUsageDescription: "App inahitaji kurekodi sauti yako",
-      NSMicrophoneUsageDescription: "App inahitaji kutumia microphone"
+      NSSpeechRecognitionUsageDescription: "App inahitaji microphone",
+      NSMicrophoneUsageDescription: "App inahitaji microphone"
     }
   },
-
   plugins: [
+    [
+      "expo-build-properties",
+      {
+        android: {
+          enableJetifier: true,
+          compileSdkVersion: 35,
+          targetSdkVersion: 35
+        }
+      }
+    ],
     "@react-native-voice/voice"
   ],
   extra: {
     eas: {
-      projectId: "5afae031-0fc4-4964-b11b-81b93ce30d85"
+      projectId:"5afae031-0fc4-4964-b11b-81b93ce30d85"// WEKA ID YAKO KAMILI HAPA
     }
   }
 };
