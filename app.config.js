@@ -31,7 +31,7 @@ export default {
   ],
   extra: {
     eas: {
-      projectId:"5afae031-0fc4-4964-b11b-81b93ce30d85"// WEKA ID YAKO KAMILI HAPA
+      projectId: "5afae031-0fc4-4964-b11b-81b93ce30d85"
     }
   }
 };
