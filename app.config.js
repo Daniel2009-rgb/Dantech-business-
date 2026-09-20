@@ -7,19 +7,22 @@ export default {
   android: {
     package: "com.dantech.daraja",
     versionCode: 1,
-    permissions: ["RECORD_AUDIO"],
+    permissions: ["RECORD_AUDIO"]
   },
   ios: {
     bundleIdentifier: "com.dantech.daraja",
     infoPlist: {
       NSSpeechRecognitionUsageDescription: "App inahitaji microphone",
       NSMicrophoneUsageDescription: "App inahitaji microphone"
-    },
-plugins: [
+    }
+  },
+  plugins: [
     [
       "expo-build-properties",
       {
-        android: { enableJetifier: true }
+        android: {
+          enableJetifier: true
+        }
       }
     ],
     "./withManifestFix",
