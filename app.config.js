@@ -14,19 +14,15 @@ export default {
     infoPlist: {
       NSSpeechRecognitionUsageDescription: "App inahitaji microphone",
       NSMicrophoneUsageDescription: "App inahitaji microphone"
-    }
-  },
-  plugins: [
+    },
+plugins: [
     [
       "expo-build-properties",
       {
-        android: {
-          enableJetifier: true,
-          compileSdkVersion: 35,
-          targetSdkVersion: 35
-        }
+        android: { enableJetifier: true }
       }
     ],
+    "./withManifestFix",
     "@react-native-voice/voice"
   ],
   extra: {
